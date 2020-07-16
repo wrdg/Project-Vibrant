@@ -1,0 +1,21 @@
+# ingore everything
+*
+
+# allow directories
+!*/
+
+# allow configuration files
+!*.json
+!*.html
+
+# allow configuration directories recursively
+!/local/**
+!/resources/**
+!/config/**
+
+# handle overide mods
+!/overrides/mods/*.jar
+/overrides/mods/memory_repo/**
+
+# allow gitignore
+!.gitignore
