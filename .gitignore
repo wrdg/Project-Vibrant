@@ -8,6 +8,7 @@
 !*.json
 !*.html
 !.curseclient
+!*.ps1
 
 # allow configuration directories recursively
 !/local/**
