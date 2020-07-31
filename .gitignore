@@ -7,7 +7,6 @@
 # allow configuration files
 !*.json
 !*.html
-!.curseclient
 !*.ps1
 
 # allow configuration directories recursively
@@ -15,10 +14,17 @@
 !/resources/**
 !/config/**
 !/natives/**
+!/customnpcs/**
 
 # handle overide mods
 !/overrides/mods/*.jar
 /overrides/mods/memory_repo/**
+
+# re-ignore
+/saves/**
+patchouli_data.json
+usercache.json
+usernamecache.json
 
 # allow gitignore
 !.gitignore
